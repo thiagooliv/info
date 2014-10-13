@@ -12,7 +12,9 @@ and open the template in the editor.
     <body>
         <?php
             $msg = array("status"=>"Info","mensagem"=>"Nos desculpamos pela inconveniência.");
-            print_r($msg)
+            print_r($msg);
+            echo "<br>";
+            echo $msg["status"].": ".$msg["mensagem"];
         ?>
     </body>
 </html>
