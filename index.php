@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        echo "It's alive <br><br>";
+        echo "It's alive!! <br><br>";
         phpinfo()
         ?>
     </body>
